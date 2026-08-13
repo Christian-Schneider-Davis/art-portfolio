@@ -212,6 +212,247 @@ body {
   color: #333; 
 } 
   
+
+.navbar {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 1000;
+}
+
+.nav-toggle {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  cursor: pointer;
+  background: #111;
+}
+
+.nav-toggle span {
+  width: 22px;
+  height: 2px;
+  background: #fff;
+
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.nav-links {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  padding: 10px;
+  background: #111;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0.3s ease;
+}
+
+.nav-open .nav-links {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.nav-links button {
+  padding: 12px 16px;
+  border: none;
+  background: transparent;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.nav-links button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-open .nav-toggle span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.nav-open .nav-toggle span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-open .nav-toggle span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+
+.about-section,
+.contact-section {
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  scroll-margin-top: 80px;
+  box-sizing: border-box;
+
+}
+
+.section-inner {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-section h2,
+.contact-section h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  margin: 0 0 30px;
+  text-align: center;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+
+}
+
+.about-content,
+.contact-content {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-content p,
+.contact-content p {
+  margin: 0 auto 20px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.contact-intro {
+  max-width: 650px;
+  margin: 0 auto 40px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  background: transparent;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #111;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.submit-button {
+  align-self: center;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 4px;
+  background: #111;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+.form-status {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: #111;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.about-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 30px;
+  border: 3px solid #fff;
+  flex-shrink: 0;
+}
+
+.back-to-top:hover {
+  transform: translateY(-4px);
+}
+
 footer { 
   text-align: center; 
   margin-top: 5rem; 
