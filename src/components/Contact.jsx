@@ -10,8 +10,7 @@ export default function Contact() {
         <h2>Contact</h2>
 
         <p className="contact-intro">
-          Interested in purchasing artwork, discussing a commission,
-          collaborating, or simply getting in touch? Send me a message.
+          For artwork inquiries, commissions, collaborations, or anything else, feel free to reach out. I’d be happy to hear from you.
         </p>
 
         <ContactForm />
