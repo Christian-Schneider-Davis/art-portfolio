@@ -7,7 +7,7 @@ export default function About() {
       <div className="section-inner">
         <a href="https://www.instagram.com/christianscottie">
         <img
-          src="/images/Christian Schneider.jpg"
+          src="public/images/Christian Schneider.jpg"
           alt="Christian Schneider-Davis"
           className="about-photo"
         />
