@@ -17,7 +17,7 @@ export default function About() {
         <div className="about-content">
 
           <p>
-            Christian "Pharaoh" Schneider-Davis is a self-taught artist based in Brooklyn, New York. Originally from Houston TX, Christian found himself in The Big Apple through his efforts in fashion early 2014. 
+            Christian "Pharaoh" Schneider-Davis is a self-taught artist based in Barcelona, Spain. Originally from Houston TX, Christian found himself in New York City through his efforts in fashion early 2014. 
           </p>
 
           <p>
@@ -25,7 +25,7 @@ export default function About() {
           </p>
 
           <p>
-           Over the years, Christian has honed this passion into incredible works exploring intimacy, vulnerability, spirituality, and the human condition with an emphasis on recognizing and reclaiming the divinity that lives inside us all. With Jean-Michel Basquiat as his main inspiration, his means of creation consists of his bare hands and a combination of chalk, acrylic, and oil paint.
+           Over the years, Christian has honed this passion into incredible works exploring intimacy, vulnerability, spirituality, and the human condition with an emphasis on recognizing and reclaiming the divinity that lives inside us all. With inspiration from the likes of his own family, <a href="https://en.wikipedia.org/wiki/David_Choe"> David Choe</a>, <a href="https://en.wikipedia.org/wiki/Lenny_Kravitz">Lenny Kravitz</a>, & <a href="https://en.wikipedia.org/wiki/Jean-Michel_Basquiat">Jean-Michel Basquiat</a>, his means of creation consists of his bare hands and a combination of chalk, acrylic, and oil paint.
           </p>
 
         </div>

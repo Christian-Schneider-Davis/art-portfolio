@@ -4,7 +4,7 @@ export const artData = [
     title: "The Fall", 
     category: "Painting", 
     medium: "Acrylic on Canvas", 
-    year: "2023", 
+    year: "2023 - **Sold**", 
     images: ["/images/The Fall.jpg", "/images/The Fall Christian Pharaoh Schneider-Davis.jpg"],
     description: "** Sold Aug 21, 2023 -$1500 ** Original Work Created And Signed By Christian Schneider-Davis. Displayed in The Local NY Gallery (13-02 44th Ave Long Island City, NYC) in August 2023. One Of One. 36 x 48. Acrylic On Canvas."  }, 
   { 
@@ -12,7 +12,7 @@ export const artData = [
     title: "...the... bird sings", 
     category: "Painting", 
     medium: "Acrylic & Clay on Canvas", 
-    year: "2025", 
+    year: "2025 - **Sold**", 
     images: ["/images/...the.. bird sings.avif", "/images/...the.. bird sings II.avif"],
     description: "** Sold June 1, 2025 - $2000 ** Original Work Created And Signed By Christian-Davis. Displayed in The Culture Lab LIC (5-25 46th Ave, Long Island City, NYC) in April 2025. One Of One. 36 x 48. Acrylic & Clay On Canvas." 
   }, 
@@ -30,7 +30,7 @@ export const artData = [
     title: "The Rose", 
     category: "Painting", 
     medium: "Acrylic on Canvas", 
-    year: "2023", 
+    year: "2023 - **Sold**", 
     images: ["/images/The Rose Christian Pharaoh Schneider-Davis.jpg", "/images/The Rose Christian Pharaoh Schneider-Davis II.avif" ],
     description: "** Sold Aug 22, 2023 - $2000 ** Original Work Created And Signed By Christian Schneider-Davis. Displayed in The Local NY Gallery (13-02 44th Ave, Long Island City, NYC) in August 2023. One Of One. 36 x 48. Acrylic On Raw Canvas." 
   },
@@ -39,16 +39,16 @@ export const artData = [
     title: "The Light", 
     category: "Painting", 
     medium: "Acrylic on Canvas", 
-    year: "2023", 
+    year: "2023 - **Sold**", 
     images: ["/images/The Light Christian Pharaoh Schneider-Davis.jpg", "/images/The Light Christian Pharaoh Schneider-Davis II.avif"],
-    description: "** Sold May 29, 2025 - $800 ** Original Work Created And Signed By Christian Schneider-Davis. Displayed in The Local NY Gallery (13-02 44th Ave, Long Island City, NYC) in August 2023. Displayed in The Culture Lab LIC (5-25 46th Ave, Long Island City, NYC) in April 2025. One Of One. 36 x 48. Acrylic On Canvas." 
+    description: "** Sold May 29, 2025 ** Original Work Created And Signed By Christian Schneider-Davis. Displayed in The Local NY Gallery (13-02 44th Ave, Long Island City, NYC) in August 2023. Displayed in The Culture Lab LIC (5-25 46th Ave, Long Island City, NYC) in April 2025. One Of One. 36 x 48. Acrylic On Canvas." 
   }, 
   { 
     id: 6, 
     title: "Skin Deep", 
     category: "Painting", 
     medium: "Acrylic on Canvas", 
-    year: "2023", 
+    year: "2023 - **Sold**", 
     images: ["/images/skin deep.avif","/images/skin deep by christian schneider davis II.avif"],
     description: "** Sold Aug 13, 2023 - $1500 ** Original Work Created And Signed By Christian Schneider-Davis. Displayed in The Local NY Gallery (13-02 44th Ave, Long Island City, NYC) in August 2023. One Of One. 36 x 48. Acrylic On Canvas."
   }, 
@@ -75,7 +75,7 @@ export const artData = [
     title: "The Great Unknown", 
     category: "Painting", 
     medium: "Acrylic on Canvas", 
-    year:"2023",
+    year:"2023 - **Sold**",
     images: ["/images/The Great Unknown by Christian Schneider Davis.avif","/images/The Great Unknown by Christian Schneider Davis II.avif" ], 
     description: "** Sold Aug 14, 2023 -$1000 ** Original Work Created And Signed By Christian Schneider-Davis. Displayed in The Local NY Gallery (13-02 44th Ave, Long Island City, NYC) in August 2023. One Of One. 36 x 46. Acrylic On Canvas." 
   },
@@ -94,7 +94,7 @@ export const artData = [
   title: "Divinity",
   category: "Painting",
   medium: "Acrylic on Canvas",
-  year: "2023",
+  year: "2023 - **Sold**",
   images:["/images/Divinity.avif","/images/Divinity Christian Schneider-Davis.avif"],
   description: "** Sold Aug 12, 2023 -$1500 ** Original Work Created And Signed By Christian Schneider-Davis. Displayed in The Local NY Gallery (13-02 44th Ave, Long Island City, NYC) in August 2023. One Of One. 36 x 52. Acrylic On Glass Panel."
 
