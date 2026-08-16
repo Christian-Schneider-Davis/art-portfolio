@@ -6,7 +6,7 @@ export default function ArtCard({ art, onClick }) {
 
       <div className="card-image-wrapper">
         <img
-          src={art.images[0]}
+          src={`${import.meta.env.BASE_URL}${art.images[0]}`}
           alt={art.title}
           loading="lazy"
         />

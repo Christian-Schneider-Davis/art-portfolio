@@ -23,7 +23,7 @@ export default function ArtModal({ art, onClose }) {
             {art.images.map((image, index) => (
               <img
                 key={index}
-                src={image}
+                src={`${import.meta.env.BASE_URL}${image}`}
                 alt={`${art.title} - Image ${index + 1}`}
               />
             ))}
