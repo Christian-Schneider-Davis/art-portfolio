@@ -25,7 +25,7 @@ export default function About() {
           </p>
 
           <p>
-           Over the years, Christian has honed this passion into incredible works exploring intimacy, vulnerability, spirituality, and the human condition with an emphasis on recognizing and reclaiming the divinity that lives inside us all. His inspirations are drawn from his own family, artists like <a href="https://en.wikipedia.org/wiki/David_Choe"> David Choe</a>, <a href="https://en.wikipedia.org/wiki/Lenny_Kravitz">Lenny Kravitz</a>, <a href="https://en.wikipedia.org/wiki/Jean-Michel_Basquiat">Jean-Michel Basquiat</a>, and many more. His means of creation consists of his bare hands and a combination of chalk, acrylic, and oil paint.
+           Over the years, Christian has honed this passion into incredible works exploring intimacy, vulnerability, spirituality, and the human condition with an emphasis on recognizing and reclaiming the divinity that lives inside us all. His inspirations are drawn from his own family, artists like <a href="https://en.wikipedia.org/wiki/David_Choe"> David Choe</a>, <a href="https://en.wikipedia.org/wiki/Lenny_Kravitz">Lenny Kravitz</a>, <a href="https://en.wikipedia.org/wiki/Jean-Michel_Basquiat">Jean-Michel Basquiat</a>, and many more. His means of creation consists of his bare hands and a combination of chalk, acrylic, clay, and oil paint.
           </p>
 
         </div>
