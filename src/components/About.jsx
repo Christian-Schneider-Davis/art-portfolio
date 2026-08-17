@@ -17,8 +17,8 @@ export default function About() {
         <div className="about-content">
 
           <p>
-            Christian "Pharaoh" Schneider-Davis is a self-taught artist based in Barcelona, Spain. Originally from Houston TX, Christian found himself in New York City through his efforts in fashion early 2014. 
-          </p>
+            Christian Schneider-Davis is a self-taught artist living and working in Barcelona, Spain. Born in Houston, Texas, he relocated to New York City in 2014 through his early work in fashion, which sparked the beginning of his art career.
+            </p>
 
           <p>
             Since childhood, Christian has regarded art, in all its forms and mediums, as his primary language of communication. Influenced by an ongoing exploration of his Filipino and Creole heritage, his fascination with self-expression has manifested in countless forms. From his early experimentation with fashion and music to the seemingly endless collection of sketches created throughout his youth, Christian has continually explored the power of visual language and emotional provocation.
