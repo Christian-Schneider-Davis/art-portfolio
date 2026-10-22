@@ -6,8 +6,27 @@
     <title>Christian Schneider-Davis Art Portfolio</title>
   </head>
   <body>
-    <div id="root"></div> 
-    
+    <div id="root"></div>
+
+    <!--
+      CONSENT-GATED SCRIPTS
+      Any analytics, pixel or third-party script must be added with
+      type="text/plain" + data-consent="analytics|marketing" so it stays
+      blocked until the visitor opts in. Example (Google Analytics 4):
+
+      <script type="text/plain" data-consent="analytics" async
+              data-src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+      <script type="text/plain" data-consent="analytics">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXX', { anonymize_ip: true });
+      </script>
+
+      Never add a tracker as a normal <script src="...">: that loads it without consent.
+      Full instructions: src/consent/consent.js
+    -->
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

@@ -7,6 +7,8 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Contact from './components/Contact';
 import BackToTop from './components/BackToTop';
+import SiteFooter from './components/SiteFooter';
+import CookieConsent from './components/CookieConsent';
   
 function App() { 
   const [selectedArt, setSelectedArt] = useState(null); 
@@ -25,10 +27,9 @@ function App() {
       )} 
       <About />
       <Contact />
-      <footer> 
-        <p>© {new Date().getFullYear()} Christian Schneider-Davis. All rights reserved.</p> 
-      </footer> 
+      <SiteFooter />
       <BackToTop />
+      <CookieConsent />
     </div> 
   ); 
 } 
