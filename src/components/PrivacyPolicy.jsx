@@ -79,7 +79,7 @@ export default function PrivacyPolicy() {
         <ul>
           <li>
             <strong>Strictly necessary.</strong> One entry in your browser’s
-            local storage (<code>csd-cookie-consent</code>) remembers your
+            local storage (<code>csd-art-cookie-consent</code>) remembers your
             cookie choice so you aren’t asked again on every visit. It stays on
             your device, isn’t shared, and expires after 12 months. Because it
             is needed to respect your choice, it doesn’t require consent.

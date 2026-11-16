@@ -27,7 +27,10 @@
  * Never put a tracker in with a normal <script src> — that bypasses consent.
  */
 
-const STORAGE_KEY = 'csd-cookie-consent';
+// Separate from the main site's key: once this site is served at
+// christianschneiderdavis.com/art the two share one browser storage area,
+// and their saved choices use different formats.
+const STORAGE_KEY = 'csd-art-cookie-consent';
 
 // Bump this when the categories or the privacy policy change materially.
 // Visitors will be asked again.
